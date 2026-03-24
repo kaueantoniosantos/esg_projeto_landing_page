@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>EcoModa Solidária | Moda Sustentável e Impacto Social</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&amp;family=Manrope:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "error": "#ba1a1a",
+                        "surface-dim": "#dcdad4",
+                        "on-primary-fixed": "#002115",
+                        "error-container": "#ffdad6",
+                        "primary-container": "#10805e",
+                        "tertiary-fixed": "#95f5cc",
+                        "surface-tint": "#006c4e",
+                        "on-tertiary-container": "#d8ffea",
+                        "secondary": "#705d00",
+                        "surface-container-low": "#f6f3ed",
+                        "surface-bright": "#fcf9f3",
+                        "secondary-fixed": "#ffe16e",
+                        "inverse-primary": "#79d9b1",
+                        "on-primary-container": "#d8ffea",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#31312d",
+                        "on-surface": "#1c1c18",
+                        "on-tertiary-fixed": "#002115",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e5e2dc",
+                        "primary": "#006549",
+                        "on-primary": "#ffffff",
+                        "on-surface-variant": "#3e4943",
+                        "background": "#fcf9f3",
+                        "on-primary-fixed-variant": "#00513a",
+                        "on-error-container": "#93000a",
+                        "primary-fixed-dim": "#79d9b1",
+                        "surface-container-highest": "#e5e2dc",
+                        "surface": "#fcf9f3",
+                        "on-secondary-fixed": "#221b00",
+                        "outline": "#6e7a73",
+                        "surface-container-high": "#ebe8e2",
+                        "tertiary-container": "#10805e",
+                        "tertiary-fixed-dim": "#79d9b1",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-fixed-variant": "#00513a",
+                        "on-secondary-container": "#756100",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#ffde59",
+                        "surface-container": "#f0eee8",
+                        "secondary-fixed-dim": "#e4c542",
+                        "primary-fixed": "#95f5cc",
+                        "outline-variant": "#bdc9c1",
+                        "tertiary": "#006549",
+                        "on-background": "#1c1c18",
+                        "inverse-on-surface": "#f3f0eb",
+                        "on-secondary-fixed-variant": "#544600"
+                    },
+                    fontFamily: {
+                        "headline": ["Epilogue"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .editorial-shadow {
+            box-shadow: 0 32px 64px -12px rgba(28, 28, 24, 0.04);
+        }
+
+        .bg-signature-gradient {
+            background: linear-gradient(135deg, #006549 0%, #10805e 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-background font-body text-on-surface">
+    <!-- TopNavBar -->
+    <nav
+        class="fixed top-0 w-full z-50 bg-[#fcf9f3]/80 dark:bg-emerald-950/80 backdrop-blur-xl shadow-sm shadow-emerald-900/5">
+        <div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+            <div class="text-xl font-black text-[#006549] dark:text-[#95f5cc] font-['Epilogue'] tracking-tight">EcoModa
+                Solidária</div>
+            <div class="hidden md:flex items-center space-gap-8 gap-8">
+                <a class="text-[#006549] dark:text-[#95f5cc] border-b-2 border-[#10805e] pb-1 font-['Epilogue'] font-bold text-sm"
+                    href="#">Missão</a>
+                <a class="text-[#1c1c18]/70 dark:text-[#fcf9f3]/70 hover:text-[#10805e] transition-colors font-['Epilogue'] font-bold text-sm"
+                    href="#">Equipe</a>
+                <!-- <button
+                    class="bg-signature-gradient text-on-primary px-6 py-2 rounded-xl font-bold transition-transform scale-95 active:scale-90">Impacto</button> -->
+            </div>
+            <!-- Mobile Menu Icon (Visual Only) -->
+            <div class="md:hidden">
+                <span class="material-symbols-outlined text-primary">menu</span>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Hero Section -->
+    <header class="relative pt-24 pb-16 md:pt-32 md:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+            <div class="md:col-span-7 z-10">
+                <h1
+                    class="font-headline text-5xl md:text-7xl font-black text-on-surface leading-none tracking-tighter mb-6">
+                    Tecendo <span class="text-primary italic">empatia</span> em cada fibra.
+                </h1>
+                <p class="text-lg md:text-xl text-on-surface-variant max-w-xl mb-8 leading-relaxed">
+                    Transformamos o excesso da indústria têxtil em dignidade social. Nossa curadoria conecta doações a
+                    quem mais precisa com o respeito que a moda editorial merece.
+                </p>
+            </div>
+            <div class="md:col-span-5 relative group">
+                <div
+                    class="aspect-[4/5] rounded-[2rem] overflow-hidden editorial-shadow transform md:rotate-3 hover:rotate-0 transition-transform duration-700">
+                    <img alt="Fashion Sustainability" class="w-full h-full object-cover"
+                        data-alt="Candid high-end editorial shot of sustainable linen garments hanging in a sun-drenched minimalist atelier with soft shadows and organic textures"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuOdC-h38KWM5IybVOj5Np7qL5IdMteRW-ZOZ8UIFH1iNXROM7Imckyy5a2cwxrd_My3IMDpZNgpA-8GydOZlKYLwJUvOrFzTnSDvxlZ_M-8gK52kHyokFrFTkmYaCQycQ3XXT7bfaVZ4_nhp7s-lJ34ZLkM2EsunUtTc58l5e6EOYq7pHBfISiaEvtjbf-Rvu5jOrq8fxdDj0ICN9rDFjdB5-AVx5GN5hkdMH7lG3-oHGHzzFGD5V9Z94uHjUOGC6f1PiE7lma6aF" />
+                    <div
+                        class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500">
+                    </div>
+                </div>
+                <!-- Saiba Mais Button positioned top right of the image container area -->
+                <div class="absolute -top-4 -right-4 md:top-8 md:-right-8">
+                    <button
+                        class="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-full font-headline font-bold text-lg editorial-shadow flex items-center gap-2 hover:scale-105 transition-transform">
+                        Saiba Mais
+                        <span class="material-symbols-outlined">arrow_outward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Search Section (3rd Section) -->
+    <section class="py-20 bg-surface-container-low">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl mx-auto text-center mb-12">
+                <h2 class="font-headline text-3xl md:text-4xl font-extrabold mb-4">Encontre Instituições Parceiras</h2>
+                <p class="text-on-surface-variant">Digite seu CEP para localizar os pontos de coleta e doação mais
+                    próximos de você.</p>
+                <div
+                    class="mt-8 flex items-center bg-surface-container-lowest rounded-full p-2 border border-outline-variant/20 focus-within:ring-2 ring-primary/40 transition-all editorial-shadow">
+                    <input class="flex-1 bg-transparent border-none focus:ring-0 px-6 font-medium text-on-surface"
+                        placeholder="Digite seu CEP (ex: 01001-000)" type="text" />
+                    <button
+                        class="bg-primary text-on-primary p-3 rounded-full hover:bg-primary-container transition-colors flex items-center justify-center">
+                        <span class="material-symbols-outlined" data-icon="search">search</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Institution Card 1 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="flex justify-between items-start mb-6">
+                        <span
+                            class="bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase">2.4
+                            km</span>
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
+                    </div>
+                    <h3 class="font-headline text-xl font-bold mb-4">Centro Têxtil Esperança</h3>
+                    <div class="space-y-4 pt-4">
+                        <button
+                            class="w-full bg-surface-container-highest text-on-surface py-3 rounded-xl font-bold text-sm hover:bg-surface-variant transition-colors">Contato</button>
+                        <button
+                            class="w-full border border-outline-variant/30 text-primary py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-primary/5">
+                            <span class="material-symbols-outlined text-lg">map</span>
+                            Rota no Google Maps
+                        </button>
+                    </div>
+                </div>
+                <!-- Institution Card 2 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="flex justify-between items-start mb-6">
+                        <span
+                            class="bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase">4.1
+                            km</span>
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">eco</span>
+                    </div>
+                    <h3 class="font-headline text-xl font-bold mb-4">Casa da Moda Circular</h3>
+                    <div class="space-y-4 pt-4">
+                        <button
+                            class="w-full bg-surface-container-highest text-on-surface py-3 rounded-xl font-bold text-sm hover:bg-surface-variant transition-colors">Contato</button>
+                        <button
+                            class="w-full border border-outline-variant/30 text-primary py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-primary/5">
+                            <span class="material-symbols-outlined text-lg">map</span>
+                            Rota no Google Maps
+                        </button>
+                    </div>
+                </div>
+                <!-- Institution Card 3 -->
+                <div
+                    class="bg-surface-container-lowest p-8 rounded-3xl editorial-shadow group hover:-translate-y-2 transition-transform duration-300">
+                    <div class="flex justify-between items-start mb-6">
+                        <span
+                            class="bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase">6.8
+                            km</span>
+                        <span class="material-symbols-outlined text-secondary"
+                            style="font-variation-settings: 'FILL' 1;">family_restroom</span>
+                    </div>
+                    <h3 class="font-headline text-xl font-bold mb-4">Instituto Renovação</h3>
+                    <div class="space-y-4 pt-4">
+                        <button
+                            class="w-full bg-surface-container-highest text-on-surface py-3 rounded-xl font-bold text-sm hover:bg-surface-variant transition-colors">Contato</button>
+                        <button
+                            class="w-full border border-outline-variant/30 text-primary py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-primary/5">
+                            <span class="material-symbols-outlined text-lg">map</span>
+                            Rota no Google Maps
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Impact & Video Section (4th Section) -->
+    <section class="py-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <!-- Video Side -->
+                <div class="relative">
+                    <div
+                        class="aspect-video bg-surface-container-high rounded-[2rem] overflow-hidden editorial-shadow relative group">
+                        <img alt="Sustainable Fashion Workshop"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                            data-alt="Cinematic wide shot of a community sewing workshop with diverse people working on colorful upcycled fabrics in a bright studio"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYdd7KEQI0MiYoAYsKG1KFU80j0U77-YTUWPaFo877h4NoVKumEH1BWGsK7tmfjva0AwyTXs3SDqzMVkIHOuGTg6pnhR4w78ee5ItMNbJ0gCdvz0JbtGIOnn1Z9lotLN0MHdn_6IxgFFUk3-vm5G5P6Bc204W5ZIlkiVpd7w5CJIZRFl6yqq-SlmWJ99SJcNrgUKvYmnFCdUNptSS10coWR4UI-KGKadVMyq1bd4IFtp5DqDK-J3LRWlv6DUeDX8-gM68T51wZ3gCz" />
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button
+                                class="w-20 h-20 bg-secondary-container text-on-secondary-container rounded-full flex items-center justify-center editorial-shadow hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-4xl"
+                                    style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Decorative element -->
+                    <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-fixed rounded-full -z-10 opacity-30">
+                    </div>
+                </div>
+                <!-- Text Side -->
+                <div class="space-y-8">
+                    <h2
+                        class="font-headline text-4xl md:text-5xl font-black text-on-surface tracking-tight leading-tight">
+                        Transformando fios em <span class="text-primary">novas histórias</span>.
+                    </h2>
+                    <div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+                        <p>
+                            A indústria da moda é uma das mais poluentes do mundo. Na EcoModa Solidária, acreditamos que
+                            a elegância e a responsabilidade social devem caminhar juntas.
+                        </p>
+                        <p>
+                            Através da nossa rede, toneladas de tecidos são redirecionadas para oficinas de capacitação,
+                            gerando renda para famílias em vulnerabilidade e reduzindo o impacto ambiental.
+                        </p>
+                    </div>
+                    <div class="pt-4">
+                        <button
+                            class="bg-signature-gradient text-on-primary px-10 py-5 rounded-full font-headline font-bold text-lg editorial-shadow hover:opacity-90 transition-opacity">
+                            Conhecer Equipe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-[#f6f3ed] dark:bg-emerald-950 w-full border-t-0 rounded-none">
+        <div
+            class="flex flex-col md:flex-row justify-between items-center px-8 py-12 space-y-6 md:space-y-0 max-w-7xl mx-auto">
+            <div class="text-lg font-bold text-[#006549] dark:text-[#95f5cc] font-['Epilogue']">EcoModa Solidária</div>
+            <div class="flex space-x-8 text-sm tracking-wide font-['Manrope']">
+                <a class="text-[#1c1c18]/60 dark:text-[#fcf9f3]/60 hover:text-[#10805e] dark:hover:text-[#95f5cc] transition-colors"
+                    href="#">Instagram</a>
+                <!-- <a class="text-[#1c1c18]/60 dark:text-[#fcf9f3]/60 hover:text-[#10805e] dark:hover:text-[#95f5cc] transition-colors"
+                    href="#">LinkedIn</a> -->
+                <!-- <a class="text-[#1c1c18]/60 dark:text-[#fcf9f3]/60 hover:text-[#10805e] dark:hover:text-[#95f5cc] transition-colors"
+                    href="#">Contato</a> -->
+                <a class="text-[#1c1c18]/60 dark:text-[#fcf9f3]/60 hover:text-[#10805e] dark:hover:text-[#95f5cc] transition-colors"
+                    href="#">Privacidade</a>
+            </div>
+            <div class="text-[#1c1c18]/60 dark:text-[#fcf9f3]/60 text-xs font-['Manrope']">
+                © 2024 EcoModa Solidária. Tecendo sustentabilidade e empatia.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
